@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CONNECT</title>
+  <style>
+    body {
+      background-image: url('national-cancer-institute-NFvdKIhxYlU-unsplash.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+    }
+  
+    h1 {
+      text-align: center;
+      color: #fff;
+    }
+  
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+      background-color: transparent;
+    }
+  
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+  
+    th {
+      font-weight: bold;
+    }
+    tr:hover {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+  
+    select, input[type="submit"] {
+      margin-top: 10px;
+      font-size: 14px;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 4px;
+      background-color: #ff6f006a;
+      color: #fff;
+      cursor: pointer;
+    }
+  
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Doctors Available</h1>
+  
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Degree</th>
+      <th>Specialization</th>
+      <th>Designation</th>
+      <th>Workplace</th>
+    </tr>
+    <tr>
+      <td>Nikunj</td>
+      <td>MD</td>
+      <td>ENT</td>
+      <td>HOD</td>
+      <td>ABC</td>
+    </tr>
+    <tr>
+        <td>Dr.Padma malini</td>
+        <td>MD</td>
+        <td>Pathology</td>
+        <td>HOD</td>
+        <td>Government medical college</td>
+      </tr>    <tr>
+        <td>Dr.Moulika</td>
+        <td>MD</td>
+        <td>Physiology</td>
+        <td>Associate Professor</td>
+        <td>Government medical college</td>
+      </tr>    <tr>
+        <td>Dr.Ishrat</td>
+        <td>MD</td>
+        <td>Anaesthesia</td>
+        <td>Associate Professor</td>
+        <td>Government medical college</td>
+      </tr><tr>
+        <td>Dr.Sridhar</td>
+        <td>MD</td>
+        <td>General Physician</td>
+        <td>Professor</td>
+        <td>Government medical college</td>
+      </tr><tr>
+        <td>Dr.Rajesh.P.K</td>
+        <td>MD</td>
+        <td>Pediatrics</td>
+        <td>Professor</td>
+        <td>Government medical college</td>
+      </tr><tr>
+        <td>Dr.Anantha Lakshmi</td>
+        <td>Ms</td>
+        <td>Obstetrics and Gynacology</td>
+        <td>HOD</td>
+        <td>Government medical college</td>
+      </tr><tr>
+        <td>Dr.Vinod</td>
+        <td>MS</td>
+        <td>Orthopedics</td>
+        <td>Associate Professor</td>
+        <td>Government medical college</td>
+      </tr><tr>
+        <td>Dr.Yasaswi</td>
+        <td>MS</td>
+        <td>ENT</td>
+        <td>Associate Professor</td>
+        <td>Government medical college</td>
+      </tr><tr>
+        <td>Dr.pravalika</td>
+        <td>MS</td>
+        <td>Surgeon</td>
+        <td>Senior Resident</td>
+        <td>Government medical college</td>
+      </tr>
+      <tr>
+        <td>Rushik</td>
+        <td>MD</td>
+        <td>Ortho</td>
+        <td>Senior Resident</td>
+        <td>CDE</td>
+      </tr>  </table>
+  
+  <form action="https://api.whatsapp.com/send" method="get" target="_blank">
+    <label for="phone">Select a doctor:</label>
+    <select id="phone" name="phone">
+      <option value="919100307278">Nikunj</option>
+      <option value="919100307278">Padma Malini</option>
+      <option value="918096449732">Moulika</option>
+      <option value="918977023890">Ishrat</option>
+      <option value="919498450500">Sridhar</option>
+      <option value="919849170823">Rakesh.P.K</option>
+      <option value="919440667216">Anantha Lakshmi</option>
+      <option value="916302298504">Vinod</option>
+      <option value="917382752529">Yasaswi</option>
+      <option value="918008913269">pravalika</option>
+      <option value="919550374409">Rushik</option>    </select>
+    <br><br>
+    <input type="submit" value="Connect on WhatsApp">
+  </form>
+</body>
+</html>
